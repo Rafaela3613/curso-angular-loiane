@@ -26,7 +26,7 @@ export class HighlightMouseDirective {
     //codigo extra;
     return this.backgroundColor;
   }
-  private backgroundColor: string;
+  private backgroundColor!: string;
 
   constructor(
     //private _elementRef: ElementRef,

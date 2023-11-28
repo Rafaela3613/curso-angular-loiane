@@ -1,7 +1,7 @@
 import { Directive, ElementRef, Renderer2 } from '@angular/core';
 
 @Directive({
-  selector: '[fundoAmarelo]'
+  selector: 'p[fundoAmarelo]'
 })
 export class FundoAmareloDirective {
 
@@ -12,8 +12,10 @@ export class FundoAmareloDirective {
     //console.log(this._elementRef);
     //this._elementRef.nativeElement.style.backgroundColor = 'yellow';
     //console.log(this._elementRef);
-//this._elementRef.nativeElement.style.backgroundColor = 'yellow';
-this._renderer.setStyle(this._elementRef.nativeElement, 'background-color', 'yellow');
+    //this._elementRef.nativeElement.style.backgroundColor = 'yellow';
+      this._renderer.setStyle
+      (this._elementRef.nativeElement,
+        'background-color', 'yellow');
   }
 
 }

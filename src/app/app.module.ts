@@ -11,6 +11,7 @@ import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
 import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.component';
 import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch.component';
 import { DiretivasCustomizadasComponent } from './diretivas-customizadas/diretivas-customizadas.component';
+import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 import { ExemploNgContentComponent } from './exemplo-ng-content/exemplo-ng-content.component';
 import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
 
@@ -23,6 +24,7 @@ import { OperadorElvisComponent } from './operador-elvis/operador-elvis.componen
     DiretivaNgstyleComponent,
     DiretivaNgswitchComponent,
     DiretivasCustomizadasComponent,
+    HighlightMouseDirective,
     ExemploNgContentComponent,
     OperadorElvisComponent
   ],
