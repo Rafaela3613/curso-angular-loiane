@@ -14,7 +14,8 @@ export class HighlightDirective {
       this.backgroundColor = this.defaultColor;
   }
 
-  @HostBinding('style.backgroundColor') backgroundColor: string;
+  @HostBinding('style.backgroundColor')
+  backgroundColor!: string;
 
   @Input() defaultColor: string = 'white';
   @Input('highlight') highlightColor: string = 'yellow';
